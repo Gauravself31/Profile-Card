@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: url(indexbg.jpg) ;
+    box-sizing: border-box;
+    background-size: 100%;
+    background-repeat:repeat-y;
+
+}
+
+.pc{ 
+    font-size: 34px; text-align: center; color: cyan;
+    padding: 42px;
+}
+img{
+    width: 232px;height: 242px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 52%;
+    border: 5px solid white;
+    margin-top: 73px;
+
+}
+
+.pro{
+    text-align: center; font-size: large; color: yellowgreen;
+}
+.paragraph{
+    text-align: center; font-size: xx-large; color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.footer li{
+    display: flex; margin: 5px 0px; list-style:none ; height: 30px;
+   
+}
+.contact{
+    font-family: Arial, Helvetica, sans-serif;font-size: 20px;
+}
+
+@media  (max-width:1000px) {
+    body{
+ 
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+    background-image: url(indexbg.jpg);
+  
+
+    }
+    .pc{
+        margin-top: 5%;
+    }
+    .paragraph{
+        text-align: center;
+        margin-top: 15%;
+        font-size: x-large;
+    
+    }
+
+    .footer li{
+        margin-top: 100%;
+        margin-bottom: 10%;
+        display: flex; margin: 20px 0px; list-style:none ; height: 30px;
+        justify-content :center;
+       font-size: x-large;
+    }
+    .add{
+        text-align: center;
+        margin-top: 30%;
+    }
+    .contact{
+        text-align: center;  
+        margin-top: 15%;  
+
+
+        
+}
+.loream{
+    font-size: large;
+    margin-top: 40%;
+}
+}
