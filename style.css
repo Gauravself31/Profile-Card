@@ -31,7 +31,6 @@ img{
 }
 .paragraph{
     text-align: center; font-size: xx-large; color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 .footer li{
     display: flex; margin: 5px 0px; list-style:none ; height: 30px;
